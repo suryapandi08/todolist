@@ -29,11 +29,14 @@ addbook.addEventListener("click",function(event){
     event.preventDefault()
     var div=document.createElement("div")
     div.setAttribute("class","book-container")
-    div.innerHTML=`<h2>:${booktitleinput.value}</h2>
+    div.innerHTML=`<h2>${booktitleinput.value}</h2>
             <h4>${bookauthorinput.value}</h4>
             <p>${bookdescriptioninput.value}</p>
         <button onclick="deletebook(event)">delete</button>`
     container.append(div)
+    booktitleinput.value=""
+    bookauthorinput.value=""
+    bookdescriptioninput.value=""
      popupoverlay.style.display="none"
     popupbox.style.display="none"
 })
