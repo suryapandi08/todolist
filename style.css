@@ -6,30 +6,40 @@ body{
     font-family:'poppins',sans-serif;
 }
 .navbar{
-background-color: red;
+    text-align: center;
+background-color: rgb(199, 238, 195);
 padding: 10px;
+text-decoration:underline;
+color:  rgb(233, 148, 20);
 }
-.container{
+.container {
     padding: 10px;
+
+    
 }
 
 .book-container{
 padding: 15px;
 width: 25%;
-background-color: black;
+background-color:black;
 border-radius: 10px;
 color: white;
 margin: 30px;
 display: inline-block;
 vertical-align: top;
+
+
+
 }
 
 .book-container h2{
-color: red;
+color: rgb(233, 148, 20);
+
+
 }
 .book-container button{
     color: black;
-    background-color: red;
+    background-color: rgb(199, 238, 195);
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
@@ -68,7 +78,7 @@ color: red;
 
 }
 .popup-box{
-    background-color: red;
+    background-color: rgb(199, 238, 195);
     width: 40%;
     padding: 40px;
     border-radius: 10px;
